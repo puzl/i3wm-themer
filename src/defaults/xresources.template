@@ -19,14 +19,22 @@
 *color7:                          #E0E0E0
 *color15:                         #E8E8E8
 
+URxvt.termName: rxvt-unicode
 URxvt.font: xft:Source Code Pro:size=10.5
+URxvt.boldFont: xft:Source Code Pro:pixelsize=13:weight=bold
 URxvt.depth:                      32
 URxvt*scrollBar:                  false
 URxvt*mouseWheelScrollPage:       false
 URxvt*cursorBlink:                true
-URxvt*saveLines:                  5000
+URxvt*saveLines:                  10000
 URxvt*internalBorder: 5
 URxvt*geometry: 70x19
+URxvt.clipboard.autocopy: true
+
+URxvt.perl-ext-common:        default,xkr-clipboard
+URxvt.iso14755:               false
+URxvt.keysym.Shift-Control-C: perl:clipboard:copy
+URxvt.keysym.Control-Insert:  perl:clipboard:copy
 
 rofi.color-enabled: true
 rofi.color-window: #272827, #13bf9d, #13bf9d
