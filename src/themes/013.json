@@ -35,9 +35,9 @@
     "polybar": {
         "background": "#1e1e20",
         "foreground": "#c5c8c6",
-        "modules-left": "i3",
+        "modules-left": "i3 title",
         "modules-center": "date",
-        "modules-right": "wlan eth powermenu",
+        "modules-right": " powermenu",
         "label-unfocused-background": "#56737a",
         "label-unfocused-foreground": "#1e1e20",
         "label-mode-background": "#56737a",
