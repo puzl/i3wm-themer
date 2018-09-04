@@ -35,9 +35,9 @@
     "polybar": {
         "background": "#25252c",
         "foreground": "#ffffff",
-        "modules-left": "",
-        "modules-center": "i3 title",
-        "modules-right": "date powermenu",
+        "modules-left": "i3 musicinfo",
+        "modules-center": "title",
+        "modules-right": "date",
         "label-unfocused-background": "#036082",
         "label-unfocused-foreground": "#25252c",
         "label-mode-background": "#25252c",
@@ -55,6 +55,5 @@
         "format-connected-background": "#036082",
         "format-connected-prefix-foreground": "#25252c",
         "ramp-signal-foreground": "#25252c"
-    },
-    "wallpaper": "009.png"
+    }
 }

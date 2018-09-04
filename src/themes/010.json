@@ -35,9 +35,9 @@
     "polybar": {
         "background": "#1d1f21",
         "foreground": "#c5c8c6",
-        "modules-left": "i3 title",
-        "modules-center": "date",
-        "modules-right": " powermenu",
+        "modules-left": "i3 musicinfo",
+        "modules-center": "title",
+        "modules-right": "date",
         "label-unfocused-background": "#282a2e",
         "label-unfocused-foreground": "#c5c8c6",
         "label-mode-background": "#282a2e",
@@ -55,6 +55,5 @@
         "format-connected-background": "#282a2e",
         "format-connected-prefix-foreground": "#c5c8c6",
         "ramp-signal-foreground": "#c5c8c6"
-    },
-    "wallpaper": "010.png"
+    }
 }

@@ -35,17 +35,17 @@
     "polybar": {
         "background": "#1f1f1f",
         "foreground": "#c6c6c6",
-        "modules-left": "",
-        "modules-center": "i3 title",
-        "modules-right": "date powermenu",
+        "modules-left": "i3 musicinfo",
+        "modules-center": "title",
+        "modules-right": "date",
         "label-unfocused-background": "#8abeb7",
         "label-unfocused-foreground": "#1f1f1f",
         "label-mode-background": "#1f1f1f",
         "label-mode-foreground": "#828282",
-        "label-focused-foreground": "#1f1f1f",
+        "label-focused-foreground": "#ffffff",
         "label-focused-background": "#8abeb7",
         "label-visible-background": "#8abeb7",
-        "label-visible-foreground": "#1f1f1f",
+        "label-visible-foreground": "#aaffaa",
         "format-foreground": "#1f1f1f",
         "format-background": "#8abeb7",
         "label-open-foreground": "#8abeb7",
@@ -55,6 +55,5 @@
         "format-connected-background": "#8abeb7",
         "format-connected-prefix-foreground": "#1f1f1f",
         "ramp-signal-foreground": "#1f1f1f"
-    },
-    "wallpaper": "007.png"
+    }
 }

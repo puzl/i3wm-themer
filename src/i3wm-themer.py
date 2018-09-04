@@ -52,5 +52,5 @@ if __name__=="__main__":
         ri.replace_i3( configuration, jfile)
         rp.replace_polybar( configuration, jfile)
         rw.replace_wallpaper( configuration, jfile)
-        com.refresh_all( configuration['xresources'], jfile['wallpaper'])
+        com.refresh_all( configuration['xresources'], "")
         exit(0)
